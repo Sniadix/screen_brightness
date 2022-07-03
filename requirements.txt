@@ -1,0 +1,6 @@
+Pillow==9.2.0
+pystray==0.19.4
+pywin32==304
+screen-brightness-control==0.15.1
+six==1.16.0
+WMI==1.5.1
