@@ -3,13 +3,9 @@ from PIL import Image
 import pystray
 
 
-print(sbc.get_brightness())
-
-
 def on_quit():
     icon.visible = False
     icon.stop()
-
 
 menu = [
     pystray.MenuItem('100%',lambda: sbc.set_brightness(100)),
